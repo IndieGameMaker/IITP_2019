@@ -6,6 +6,8 @@
 
 ## 수업시 사용할 리소스
 
+- [GearVR 슈팅게임 리소스](https://1drv.ms/u/s!Asker0nVo1TS1oxn4yFBrm9CVmZhaQ?e=OT3bMK)
+
 - [VR/AR 리소스 압축파일](https://1drv.ms/u/s!Asker0nVo1TSyM8AZdw_r2Wt05-zgg?e=yZwd3B)
 
 - [기어VR 텔리포트 패키지](https://developer.oculus.com/blog/teleport-curves-with-the-gear-vr-controller/)
