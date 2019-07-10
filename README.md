@@ -4,7 +4,7 @@
 
 - [최종소스 압축파일](https://1drv.ms/u/s!Asker0nVo1TS1dlW8GDXBVRmbWR9WA?e=WPd8Fq)
 
-## 수업시 사용할 리소스
+## 수업시 사용할 리소스
 
 - [GearVR 슈팅게임 리소스](https://1drv.ms/u/s!Asker0nVo1TS1oxn4yFBrm9CVmZhaQ?e=OT3bMK)
 
