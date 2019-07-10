@@ -12,8 +12,9 @@ public class TouchMgr : MonoBehaviour
 
     void Start()
     {
-        placerModel = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        placerModel = GameObject.CreatePrimitive(PrimitiveType.Sphere);
         placerModel.transform.localScale = Vector3.one * 0.1f;
+        placerModel.AddComponent<Rigidbody>();
     }
 
     void Update()
@@ -28,7 +29,8 @@ public class TouchMgr : MonoBehaviour
         {
             if (raycastMgr.Raycast(touch.position, hits, TrackableType.PlaneWithinPolygon))
             {
-                Instantiate(placerModel, hits[0].pose.position, hits[0].pose.rotation);
+                Vector3 pos = hits[0].pose.position + hits[0].pose.up * 0.3f;
+                Instantiate(placerModel,pos, hits[0].pose.rotation);
             }
         }
     }
