@@ -6,7 +6,9 @@
 
 ## 수업시 사용할 리소스
 
-- [GearVR 슈팅게임 리소스](https://1drv.ms/u/s!Asker0nVo1TS1oxn4yFBrm9CVmZhaQ?e=OT3bMK)
+- [GearVR 슈팅게임 리소스1](https://1drv.ms/u/s!Asker0nVo1TS1oxoY4A-ApseuBkRXQ?e=6oeM5p)
+
+- [GearVR 슈팅게임 리소스2](https://1drv.ms/u/s!Asker0nVo1TS1oxp1Zao5xauQi6ulw?e=4lKD1S)
 
 - [VR/AR 리소스 압축파일](https://1drv.ms/u/s!Asker0nVo1TSyM8AZdw_r2Wt05-zgg?e=yZwd3B)
 
