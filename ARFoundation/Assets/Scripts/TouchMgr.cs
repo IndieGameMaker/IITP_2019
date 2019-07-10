@@ -30,7 +30,7 @@ public class TouchMgr : MonoBehaviour
             if (raycastMgr.Raycast(touch.position, hits, TrackableType.PlaneWithinPolygon))
             {
                 //터치한 위치 + (Y축 방향 * 30cm)
-                Vector3 pos = hits[0].pose.position + hits[0].pose.up * 0.3f;
+                Vector3 pos = hits[0].pose.position + hits[0].pose.up * 0.0f;
                 Instantiate(placerModel, pos, hits[0].pose.rotation);
             }
         }
