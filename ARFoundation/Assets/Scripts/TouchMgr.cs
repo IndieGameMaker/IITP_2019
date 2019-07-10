@@ -9,7 +9,7 @@ public class TouchMgr : MonoBehaviour
     public GameObject placerModel;
     public ARRaycastManager raycastMgr;
     private List<ARRaycastHit> hits;
-    
+
     void Start()
     {
         placerModel = GameObject.CreatePrimitive(PrimitiveType.Cube);
@@ -26,7 +26,10 @@ public class TouchMgr : MonoBehaviour
 
         if (touch.phase == TouchPhase.Began)
         {
-            if (raycastMgr.Raycast())
+            if (raycastMgr.Raycast(touch.position, hits, TrackableType.PlaneWithinPolygon))
+            {
+                Instantiate(placerModel, hits[0].pose.position, hits[0].pose.rotation);
+            }
         }
     }
 }
