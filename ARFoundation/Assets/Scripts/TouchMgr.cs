@@ -8,13 +8,13 @@ public class TouchMgr : MonoBehaviour
 {
     public GameObject placerModel;
     public ARRaycastManager raycastMgr;
-    private List<ARRaycastHit> hits;
+    private List<ARRaycastHit> hits = new List<ARRaycastHit>();
 
     void Start()
     {
-        placerModel = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-        placerModel.transform.localScale = Vector3.one * 0.1f;
-        placerModel.AddComponent<Rigidbody>();
+        // placerModel = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+        // placerModel.transform.localScale = Vector3.one * 0.1f;
+        // placerModel.AddComponent<Rigidbody>();
     }
 
     void Update()
@@ -29,9 +29,15 @@ public class TouchMgr : MonoBehaviour
         {
             if (raycastMgr.Raycast(touch.position, hits, TrackableType.PlaneWithinPolygon))
             {
+                //터치한 위치 + (Y축 방향 * 30cm)
                 Vector3 pos = hits[0].pose.position + hits[0].pose.up * 0.3f;
-                Instantiate(placerModel,pos, hits[0].pose.rotation);
+                Instantiate(placerModel, pos, hits[0].pose.rotation);
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
         }
     }
 }
