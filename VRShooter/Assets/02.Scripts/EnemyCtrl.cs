@@ -18,6 +18,7 @@ public class EnemyCtrl : MonoBehaviour
 
     void Start()
     {
+        //초기화 (변수 값을 할당 (Assign), 대입)
         enemyTr     = GetComponent<Transform>();
         playerTr    = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         nv          = GetComponent<NavMeshAgent>();
