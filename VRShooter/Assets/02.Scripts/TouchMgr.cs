@@ -48,11 +48,6 @@ public class TouchMgr : MonoBehaviour
             PointerEventData data = new PointerEventData(EventSystem.current);
             ExecuteEvents.Execute(currButton, data, ExecuteEvents.pointerClickHandler);
         }
-        if (OVRInput.Get(OVRInput.Button.PrimaryTouchpad))
-        {
-            Vector2 pos = OVRInput.Get(OVRInput.Axis2D.PrimaryTouchpad);
-        }
-
     }
 
     public void OnStartClick()
