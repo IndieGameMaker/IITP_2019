@@ -15,6 +15,9 @@ public class TouchMgr : MonoBehaviour
 
     private Ray ray;
     private RaycastHit hit;
+    
+    //현재 응시하고 있는 버튼
+    private GameObject currButton;
 
     public Transform laserTr;
 
@@ -31,10 +34,18 @@ public class TouchMgr : MonoBehaviour
         {
             OnLaserExit(); //Exit 이벤트 발생
             OnLaserEnter(hit.collider.gameObject); //Enter 이벤트 발생
+
+            currButton = hit.collider.gameObject;
         }
         else
         {
             OnLaserExit();
+            currButton = null;
+        }
+        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) && currButton != null)
+        {
+            PointerEventData data = new PointerEventData(EventSystem.current);
+            ExecuteEvents.Execute(currButton, data, ExecuteEvents.pointerClickHandler);
         }
     }
 }
