@@ -38,4 +38,22 @@ public class EnemyCtrl : MonoBehaviour
         nv.SetDestination(playerTr.position);
         nv.isStopped = false;   
     }
+
+    void OnCollisionEnter(Collision coll)
+    {
+        if (coll.collider.CompareTag("BULLET"))
+        {
+            hp -= 10.0f;
+            if (hp <= 0.0f)
+            {
+                EnemyDie();
+            }
+        }
+    }
+
+    void EnemyDie()
+    {
+        Debug.Log("Enemy Die");
+        Destroy(this.gameObject, 3.0f);
+    }
 }
