@@ -21,11 +21,16 @@ public class LaserBehaviour : MonoBehaviour
 
     void LaserEnter(GameObject obj)
     {
-
+        if (obj == this.gameObject)
+        {
+            PointerEventData data = new PointerEventData(EventSystem.current);
+            ExecuteEvents.Execute(this.gameObject, data, ExecuteEvents.pointerEnterHandler);
+        }
     }
 
     void LaserExit()
     {
-
+        PointerEventData data = new PointerEventData(EventSystem.current);
+        ExecuteEvents.Execute(this.gameObject, data, ExecuteEvents.pointerExitHandler);
     }
 }
