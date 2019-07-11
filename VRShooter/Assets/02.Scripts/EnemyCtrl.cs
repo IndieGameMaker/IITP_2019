@@ -43,6 +43,9 @@ public class EnemyCtrl : MonoBehaviour
     {
         if (coll.collider.CompareTag("BULLET"))
         {
+            //총알 삭제
+            Destroy(coll.gameObject);
+
             hp -= 10.0f;
             if (hp <= 0.0f)
             {

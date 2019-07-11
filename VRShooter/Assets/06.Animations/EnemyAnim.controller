@@ -88,10 +88,10 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 2566492281110648161}
-    m_Position: {x: 290, y: 30, z: 0}
+    m_Position: {x: 260, y: 40, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7687773349855543340}
-    m_Position: {x: 290, y: 120, z: 0}
+    m_Position: {x: 260, y: 140, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: -7863547343501789065}
@@ -165,6 +165,18 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
+--- !u!114 &2143438874946576237
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7eb7ffa208fa443d9de529dce018664, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1102 &2566492281110648161
 AnimatorState:
   serializedVersion: 5
