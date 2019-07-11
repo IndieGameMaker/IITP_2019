@@ -14,9 +14,4 @@ public class GameManager : MonoBehaviour
         Instantiate(player, playerPoints[idx].position, playerPoints[idx].rotation);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
