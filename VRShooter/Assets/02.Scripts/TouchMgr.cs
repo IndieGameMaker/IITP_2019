@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class TouchMgr : MonoBehaviour
 {
@@ -47,5 +48,10 @@ public class TouchMgr : MonoBehaviour
             PointerEventData data = new PointerEventData(EventSystem.current);
             ExecuteEvents.Execute(currButton, data, ExecuteEvents.pointerClickHandler);
         }
+    }
+
+    public void OnStartClick()
+    {
+        SceneManager.LoadScene("Play", LoadSceneMode.Single);
     }
 }
