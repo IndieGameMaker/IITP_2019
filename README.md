@@ -4,6 +4,8 @@
 
 - [최종소스 압축파일](https://1drv.ms/u/s!Asker0nVo1TS1dlW8GDXBVRmbWR9WA?e=WPd8Fq)
 
+- [Vive 최종소스](https://~~~~)
+
 ## 수업시 사용할 리소스
 
 - [GearVR 슈팅게임 리소스1](https://1drv.ms/u/s!Asker0nVo1TS1oxoY4A-ApseuBkRXQ?e=6oeM5p)
