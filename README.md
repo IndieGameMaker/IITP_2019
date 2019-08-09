@@ -4,8 +4,6 @@
 
 - [최종소스 압축파일](https://1drv.ms/u/s!Asker0nVo1TS1dlW8GDXBVRmbWR9WA?e=WPd8Fq)
 
-- [Vive 최종소스](https://~~~~)
-
 ## 수업시 사용할 리소스
 
 - [GearVR 슈팅게임 리소스1](https://1drv.ms/u/s!Asker0nVo1TS1oxoY4A-ApseuBkRXQ?e=6oeM5p)
@@ -71,6 +69,16 @@
 - ARCamera 프리팹 , ImageTrackable 프리팹
 - 스마트 글래스 설정 (ARCamera 선택 후 Configuration 버튼클릭 -> Optical See Through로 설정)
 
-## ARCore SDK
+# PROJECT 교육융합/국방융합
 
-## ARFoundation
+기간 : 2019/08/09 ~ 2019/08/22
+발표 : 2019/08/23 16:00 ~ 18:00
+
+팀 1 : **이승민(팀장)**,이정민,문종혁
+팀 2 : **권용택(팀장)**,박지연,강호준
+팀 3 : **박규태(팀장)**,한영준
+팀 4 : 백종욱,박보령,백종욱
+팀 5 : 김지윤,박진수,김현철
+
+발표순서 : 2019/08/22 확정
+발표리허설 : 2019/08/23 10:00 ~ 12:00
