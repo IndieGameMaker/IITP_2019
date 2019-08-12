@@ -111,3 +111,30 @@
 - 구매 가능한 구매 에셋은 3D 모델, 2D 텍스처(UI 포함), 사운드, 이펙트에 한정함.
 - 가급적 로우 폴리 모델을 선택한다.(Vive 제외)
 - LOD 적용된 모델을 우선한다.
+
+
+####
+
+Library/AssetImportState
+Library/AssetServerCacheV3
+Library/FailedAssetImports.txt
+Library/ScriptAssemblies
+Library/ScriptMapper
+Library/assetDatabase3
+Library/cache
+Library/expandedItems
+Library/metadata
+Library/previews
+Library/guidmapper
+CurrentLayout.dwlt
+Temp
+*.csproj 
+*.pidb
+*.sln
+*.suo
+*.sln.docstates
+*.unityproj
+*.userprefs
+*.DS_Store
+Thumbs.db
+build
