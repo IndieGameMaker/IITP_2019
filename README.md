@@ -114,10 +114,10 @@
 
 ## 최종 발표
 ### 가산 발표회 참조 링크
-![가산 발표회 발표자료](https://docs.google.com/presentation/d/1Wi4CPOxZsDX_MSDc5-Cf3IT8eme0nka0bkgZK7LOFsM/edit#slide=id.g5df383f5be_5_66)
+[가산 발표회 발표자료](https://docs.google.com/presentation/d/1Wi4CPOxZsDX_MSDc5-Cf3IT8eme0nka0bkgZK7LOFsM/edit#slide=id.g5df383f5be_5_66)
 
 ### 발표자료 구글 문서
-![]()
+[]()
 
 ### 일정
 21일 
