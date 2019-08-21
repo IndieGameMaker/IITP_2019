@@ -112,12 +112,12 @@
 - 가급적 로우 폴리 모델을 선택한다.(Vive 제외)
 - LOD 적용된 모델을 우선한다.
 
-## 최종 발표
+## 최종 발표 준비 및 일정
 ### 가산 발표회 참조 링크
 [가산 발표회 발표자료](https://docs.google.com/presentation/d/1Wi4CPOxZsDX_MSDc5-Cf3IT8eme0nka0bkgZK7LOFsM/edit#slide=id.g5df383f5be_5_66)
 
 ### 발표자료 구글 문서
-[]()
+[](https://docs.google.com/presentation/d/1xkjsEPpNUXvr5I4SFbCv2s6nHFZQSIDbWUe_DkwHEK4/edit#slide=id.p)
 
 ### 일정
 21일 
@@ -128,6 +128,6 @@
 - 발표자료에 첨부할 시연 동영상 촬영 시작
 
 23일 
-- 10:00 ~ 12:00 팀별 리허설
-- 12:00 ~ 소스코드 변경금지
-- 16:00 ~ 18:00 프로젝트 발표회
+- 10:00 ~ 12:00 팀별 **리허설**
+- 12:00 ~ **소스코드 변경금지**
+- 16:00 ~ 18:00 **프로젝트 발표회**
