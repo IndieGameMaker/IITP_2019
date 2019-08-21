@@ -117,7 +117,7 @@
 [가산 발표회 발표자료](https://docs.google.com/presentation/d/1Wi4CPOxZsDX_MSDc5-Cf3IT8eme0nka0bkgZK7LOFsM/edit#slide=id.g5df383f5be_5_66)
 
 ### 발표자료 구글 문서
-[](https://docs.google.com/presentation/d/1xkjsEPpNUXvr5I4SFbCv2s6nHFZQSIDbWUe_DkwHEK4/edit#slide=id.p)
+[발표문서 구글링크](https://docs.google.com/presentation/d/1xkjsEPpNUXvr5I4SFbCv2s6nHFZQSIDbWUe_DkwHEK4/edit#slide=id.p)
 
 ### 일정
 21일 
